@@ -104,4 +104,6 @@
 
  .media {
      background: url("./images/bubeSufa.JPG") center/cover;
+     position: relative;
+     height: 100vh;
  }
