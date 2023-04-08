@@ -5,7 +5,7 @@ let bodyStyle = document.body.style;
         let mediaDiv = document.querySelector(".media");
         document.body.appendChild(mediaDiv);
         mediaDiv.style.position = "relative";
-        mediaDiv.style.background = "url(./images/bubeSufa.jpg) center/cover";
+        
         mediaDiv.style.height = "100vh";
 
 
