@@ -18,8 +18,9 @@ let bodyStyle = document.body.style;
             cardsContainer.classList.toggle('active')
             button.classList.toggle('active')
             button.style.transition = "all 1s linear"
-            button.innerHTML =
-                `<h1 style = font-size:20px>Lagadin was clicked...click again</h1><span style="font-size:50px; ">⬇</span>`
+            button.innerText = "Push the Button";
+        /*button.innerHTML =
+                `<h1 style = font-size:20px>Lagadin was clicked...click again</h1><span style="font-size:50px; ">⬇</span>`*/
             button.style.width = "100%"
             button.append(cardsContainer);
 
